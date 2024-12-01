@@ -1,0 +1,100 @@
+.infoPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.left-section {
+    margin-right: 18px;
+    width: 800px;
+    margin-left: 48px;
+}
+@media (min-width: 1000px) {
+    .left-section {
+        width: 770px;
+    }
+}
+.picture-1 {
+    width: 99%;
+}
+.picture-2 {
+    width: 100%;
+}
+.text-to-audio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:-30px;
+    margin-bottom: 10px;
+}
+.audio-description {
+    margin-right: 5px;
+    color:red;
+}
+.title {
+    font-size: 31px;
+    font-weight: 550;
+    margin-bottom: 0;
+    width: 700px;
+    line-height: 45px;
+    margin-top: 0;
+}
+.right-section {
+    width: 382px;
+}
+.author-citation {
+    font-size: 13px;
+    font-weight: 650;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.questions {
+    font-weight: bold;
+    font-style: italic;
+    line-height: 30px;
+    font-size: 16px;
+}
+.text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top:0;
+}
+.main-topic {
+    font-weight: 650;
+    margin-top:24px;
+    line-height: 30px;
+    font-size: 16.5px;
+}
+.audio-icon {
+    width: 98%;
+}
+.title2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.related-text {
+    font-weight: 650;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.horizontal-line-after-title-right-section {
+    border-top: 2px solid red;
+    margin-top: 5px;
+}
+.horizontal-line-after-title-left-section {
+    border-top: 2px solid red;
+    margin-bottom: -20px;
+}
+.horizontal-line {
+    border-top: 1px solid rgb(231, 231, 231);
+    margin-top: 40px;
+}
+.first-part {
+    margin-bottom: 55px;
+    margin-top:-15px;
+}
+.second-part {
+    margin-top: 0;
+}
